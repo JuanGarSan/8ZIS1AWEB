@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios JS</title>
+    <link rel="stylesheet" href="../CSS/style_2.css">
+</head>
+<body>
+    <br>
+    <div class="container" >
+        <form method="get" name="formulario7" action="">
+            <label> 7) Leer 2 números; si son iguales que los multiplique, 
+                si el primero es mayor que el segundo que los reste y 
+                si no que los sume.
+                <div class="table-content" >
+                    <table style="text-align: left; margin-left: auto; margin-right: auto;">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <label for="a">Ingresa el valor de a:</label>
+                                </td>
+                                <td>
+                                    <input name="a" required="required" step="0.000001" type="number" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="b">Ingresa el valor de b:</label>
+                                </td>
+                                <td>
+                                    <input name="b" required="required" step="0.000001" type="number" />
+                                </td>
+                            </tr>
+                            <tr align="center">
+                                <td colspan="2" rowspan="1">
+                                    <input value="Procesar" type="button" onclick="leer_2num();" />
+                                    <input type="reset" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="suma">Valor de suma:</label>
+                                </td>
+                                <td>
+                                    <input name="suma" step="0.000001" type="number" />
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+        </form>
+    </div>
+
+
+    <script src="../JS/ejercicio7.js" ></script>
+
+    <a href="../index.html" >Regresar a Menu Principal</a>
+    
+</body>
+</html>

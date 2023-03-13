@@ -1,0 +1,168 @@
+
+
+
+input[type="button"]{
+
+    margin-left: 0;
+    margin-right: 0;
+    color: rgb(53, 107, 187);
+    width: 333px;
+   
+    font-size: 33px;
+   
+    background-color: rgb(254, 254, 255);
+    cursor: pointer;
+    float: left;
+    
+    }
+  .name {
+    color: rgb(39, 124, 72);
+  }
+  .v12486_23644 {
+    width: 361px;
+    color: rgba(73,69,255,1);
+    position: absolute;
+    top: 548px;
+    left: 209px;
+    font-family: Actor;
+    font-weight: Regular;
+    font-size: 24px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v12486_23645 {
+    width: 361px;
+    color: rgba(73,69,255,1);
+    position: absolute;
+    top: 548px;
+    left: 906px;
+    font-family: Actor;
+    font-weight: Regular;
+    font-size: 24px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v12486_23646 {
+    width: 245px;
+    height: 240px;
+    background: url("../images/v12486_23646.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 315px;
+    left: 260px;
+    overflow: hidden;
+  }
+  .v12471_22750 {
+    width: 916px;
+    color: rgba(33,33,52,1);
+    position: absolute;
+    top: 102px;
+    left: 353px;
+    font-family: Actor;
+    font-weight: Regular;
+    font-size: 48px;
+    opacity: 1;
+    text-align: left;
+  }
+  .name {
+    color: rgb(25, 121, 41);
+  }
+  .name {
+    color: rgb(16, 161, 28);
+  }
+  .v12486_23647 {
+    width: 225px;
+    height: 202px;
+    background: url("../images/v12486_23647.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 315px;
+    left: 973px;
+    overflow: hidden;
+  }
+  
+  .selleccion1{
+    
+    margin-top: auto;
+    margin-left: 240px;
+    margin-right: 120px;
+    
+  }
+  
+  .selleccion2{
+    float: left;
+    margin-top: auto;
+    margin-left: 240px;
+    margin-right: 120px;
+    
+  }
+  
+  .selleccion3{
+    float: left;
+    margin-top: auto;
+    margin-left: 240px;
+    margin-right: 120px;
+    
+  }
+  
+  .seccion2{
+    margin-top: auto;
+    margin-left: 240px;
+    margin-right: 120px;
+    
+  }
+  .enviar{
+    margin-top: auto;
+    margin-left: 240px;
+    margin-right: 120px;
+    
+  }
+  
+  .enviar2{
+   float: left;
+    margin-top: auto;
+    margin-left: 540px;
+    margin-right: 120px;
+    
+  }
+  
+  input[type="reset"]{
+  
+    margin-left: 0;
+    margin-right: 0;
+    color: rgb(53, 107, 187);
+    width: 333px;
+   
+    font-size: 33px;
+   
+    background-color: rgb(254, 254, 255);
+    cursor: pointer;
+    float: left;
+    
+    }
+  
+    input[type="submit"]{
+  
+      margin-left: 0;
+      margin-right: 0;
+      color: rgb(53, 107, 187);
+      width: 342px;
+     
+      font-size: 33px;
+     
+      background-color: rgb(254, 254, 255);
+      cursor: pointer;
+      float: left;
+      
+      }
+  
+      h1{
+        margin-left: 460px;
+        margin-right: auto;
+      }

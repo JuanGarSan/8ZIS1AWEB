@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios JS</title>
+    <link rel="stylesheet" href="../CSS/style_2.css">
+</head>
+<body>
+    <br>
+    <div class="container" >
+        <form method="get" name="formulario9" action="">
+            <label> 9) Determinar la cantidad de dinero que 
+                recibirá un trabajador por concepto de las
+                horas extras trabajadas en una empresa, 
+                sabiendo que cuando las horas de trabajo 
+                exceden de 40. el resto se consideran horas 
+                extras y que estas se pagan al doble de una 
+                hora norm al cuando no exceden de 8; 
+                si las horas extras exceden de S se pagan 
+                las primeras 8 al doble de lo que se pagan 
+                las horas normales y el resto al triple.
+                <div class="table-content" >
+                    <table style="text-align: left; margin-left: auto; margin-right: auto;">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <label for="horas_trabajadas">Ingresa el valor de horas trabajadas:</label>
+                                </td>
+                                <td>
+                                    <input name="horas_trabajadas" required="required" step="1" type="number" />
+                                </td>
+                            </tr>
+                            <tr align="center">
+                                <td colspan="2" rowspan="1">
+                                    <input value="Procesar" type="button" onclick="algoritmo();" />
+                                    <input type="reset" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="pago_horas_extra">Valor de pago horas extra:</label>
+                                </td>
+                                <td>
+                                    <input name="pago_horas_extra" step="1" type="number" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="salario">Valor de salario:</label>
+                                </td>
+                                <td>
+                                    <input name="salario" step="1" type="number" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="total_del_salario">Valor de total del salario:</label>
+                                </td>
+                                <td>
+                                    <input name="total_del_salario" step="1" type="number" />
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+        </form>
+    </div>
+
+
+    <script src="../JS/ejercicio9.js" ></script>
+
+    <a href="../index.html" >Regresar a Menu Principal</a>
+    
+</body>
+</html>

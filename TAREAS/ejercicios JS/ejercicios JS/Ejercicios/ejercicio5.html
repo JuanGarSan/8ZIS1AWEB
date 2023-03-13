@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios JS</title>
+    <link rel="stylesheet" href="../CSS/style_2.css">
+</head>
+<body>
+    <br>
+    <div class="container" >
+        <form method="get" name="formulario5" action="">
+            <label> 5) Un maestro desea saber que porcentaje de hombres y 
+                que porcentaje de mujeres hay en un grupo de estudiantes.
+
+                <div class="table-content" >
+                    <table style="text-align: left; margin-left: auto; margin-right: auto;">
+                        <tbody>
+
+                            <tr>
+                                <td>
+                                    <label for="hombres">Ingresa el numero de hombres:</label>
+                                </td>
+                                <td>
+                                    <input name="hombres" required="required" step="0.000001" type="number" />
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td>
+                                    <label for="mujeres">Ingresa el numero de mujeres:</label>
+                                </td>
+                                <td>
+                                    <input name="mujeres" required="required" step="0.000001" type="number" />
+                                </td>
+                            </tr>
+
+                            
+                            <tr align="center">
+                                <td colspan="2" rowspan="1">
+                                    <input value="Procesar" type="button" onclick="porcentaje_MH();" />
+                                    <input type="reset" />
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <label for="porcentaje_mujeres">Porcentaje mujeres:</label>
+                                </td>
+                                <td>
+                                    <input name="porcentaje_mujeres" step="0.000001" type="number" />
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <label for="porcentaje_hombres">Porcentaje hombres:</label>
+                                </td>
+                                <td>
+                                    <input name="porcentaje_hombres" step="0.000001" type="number" />
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+        </form>
+    </div>
+
+
+    <script src="../JS/ejercicio5.js" ></script>
+
+    <a href="../index.html" >Regresar a Menu Principal</a>
+    
+</body>
+</html>

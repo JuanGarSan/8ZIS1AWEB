@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios JS</title>
+    <link rel="stylesheet" href="../CSS/style_2.css">
+</head>
+<body>
+    <br>
+    <div class="container" >
+        <form method="get" name="formulario10" action="">
+            <label> 10) Calcular la utilidad que un trabajador
+                <div class="table-content" >
+                    <table style="text-align: left; margin-left: auto; margin-right: auto;">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <label for="antiguedad">Ingresa el valor de antiguedad:</label>
+                                </td>
+                                <td>
+                                    <input name="antiguedad" required="required" step="0.000001" type="number" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="salario">Ingresa el valor de salario:</label>
+                                </td>
+                                <td>
+                                    <input name="salario" required="required" step="0.000001" type="number" />
+                                </td>
+                            </tr>
+                            <tr align="center">
+                                <td colspan="2" rowspan="1">
+                                    <input value="Procesar" type="button" onclick="algoritmo();" />
+                                    <input type="reset" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="utilidades">Valor de utilidades:</label>
+                                </td>
+                                <td>
+                                    <input name="utilidades" step="0.000001" type="number" />
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+        </form>
+    </div>
+
+
+    <script src="../JS/ejercicio10.js" ></script>
+
+    <a href="../index.html" >Regresar a Menu Principal</a>
+    
+</body>
+</html>

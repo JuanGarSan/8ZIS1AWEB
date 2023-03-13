@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios JS</title>
+    <link rel="stylesheet" href="../CSS/style_2.css">
+</head>
+<body>
+    <br>
+    <div class="container" >
+        <form method="get" name="formulario4" action="">
+            <label> 4) Un alumno desea saber cual será su calificación final en 
+                la materia de Algoritmos. Dicha calificación se compone de los 
+                siguientes porcentajes: 
+                55% del promedio de sus tres calificaciones parciales. 
+                30% de la calificación del examen final. 
+                15% de la calificación de un trabajo final.
+
+                <div class="table-content" >
+                    <table style="text-align: left; margin-left: auto; margin-right: auto;">
+                         <tbody>
+                    <tr>
+                        <td>
+                            <label for="examen_final">Ingresa el valor de examen final:</label>
+                        </td>
+                        <td>
+                            <input name="examen_final" required="required" step="0.000001" type="number" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="parcial_1">Ingresa el valor de parcial 1:</label>
+                        </td>
+                        <td>
+                            <input name="parcial_1" required="required" step="0.000001" type="number" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="parcial_2">Ingresa el valor de parcial 2:</label>
+                        </td>
+                        <td>
+                            <input name="parcial_2" required="required" step="0.000001" type="number" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="parcial_3">Ingresa el valor de parcial 3:</label>
+                        </td>
+                        <td>
+                            <input name="parcial_3" required="required" step="0.000001" type="number" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="trabajo_final">Ingresa el valor de trabajo final:</label>
+                        </td>
+                        <td>
+                            <input name="trabajo_final" required="required" step="0.000001" type="number" />
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td colspan="2" rowspan="1">
+                            <input value="Procesar" type="button" onclick="calificacion();" />
+                            <input type="reset" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="calificacion_final">Valor de calificacion final:</label>
+                        </td>
+                        <td>
+                            <input name="calificacion_final" step="0.000001" type="number" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="promedio_parciales">Valor de promedio parciales:</label>
+                        </td>
+                        <td>
+                            <input name="promedio_parciales" step="0.000001" type="number" />
+                        </td>
+                    </tr>
+                </tbody>
+                    </table>
+                </div>
+        </form>
+    </div>
+
+
+    <script src="../JS/ejercicio4.js" ></script>
+
+    <a href="../index.html" >Regresar a Menu Principal</a>
+    
+</body>
+</html>
