@@ -1,0 +1,8 @@
+body{
+    background-color: yellow;
+}
+
+table thead{
+    background-color: red;
+    color: white;
+}
